@@ -1,0 +1,18 @@
+Main Window:
+	Have a 'health' setup
+		- A simulation needs
+			Jobs
+			Users
+			>0 Grids
+			>0 Computers per grid
+			>0 Jobs per user (a check, no manditory)
+	A run button
+	 - pops up a console window.
+	
+	Add buttons after the health stats?
+	
+Link to gridsim (dur)
+
+A 'database'
+
+Lofty - Config file read, write

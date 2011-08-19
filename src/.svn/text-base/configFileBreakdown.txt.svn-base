@@ -1,0 +1,56 @@
+#This is how the config file will work, and is a working config file.
+
+# Comments have in front of them.
+# Grid definition
+[Grid Grid1]
+
+[Machine Machine1]
+mips 100
+count 12
+numProcs 2
+
+
+[Machine Machine2]
+mips 100
+count 12
+numProcs 2
+assignTo Grid1
+
+
+[Grid Grid2]
+
+[Machine Grid2Machine1]
+mips 100
+count 12
+assignTo Grid2
+
+
+[Machine Grid2Machine2]
+mips 100
+count 12
+numProcs 2
+assignTo Grid2
+
+# Users and tasks are approximately the same.
+[User user1]
+# all jobs below this user belong to this user
+
+[Job j1]
+instructions 1000
+count 12
+inputSize 100
+outputSize 100
+
+[Job j2]
+instructions 1000
+count 12
+inputSize 100
+outputSize 100
+
+[User user2]
+
+[Job user2job1]
+instructions 1234
+count 123
+inputSize 100
+outputSize 100
