@@ -1,0 +1,22 @@
+A gui for Gridsim.
+
+Classes out objects such as Machines, Gridlets, Grids and processors.
+A config file can be used to run a configuration, or save a configuration.
+
+There are minor edits to the Gridsim code.
+
+Use this software at your own risk. There is no warranty, and I am 
+not responsible for any negitive effects the code may have.
+
+This code is free to use share or ignore.
+
+To Compile:
+cd to the directory you have the code in.
+javac -cp swt.jar:. GridSimGui.java
+To run:
+java -cp swt.jar:. GridSimGui
+On a Mac you will have to run this:
+java -cp swt.jar:. GridSimGui -XstartOnFirstThread
+
+Note: If you are using Windows you will have to change the :'s into ;'s (colons to semicolons)
+
